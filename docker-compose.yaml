@@ -23,7 +23,6 @@ services:
     image: mysql:8.0
     restart: always
     environment:
-    MYSQL_HOST: localhost
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: auth_backend
       MYSQL_USER: ayush
